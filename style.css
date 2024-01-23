@@ -4,6 +4,34 @@
     top: -15rem;
 }
 
+.xl1 {
+    border-radius: 16px;
+    background: rgba(19, 19, 24, 0.50);
+    background-image: url(/Images/2.png);
+    width: 573px;
+    height: 338px;
+}
+
+.xl2 {
+    border-radius: 16px;
+    background: rgba(19, 19, 24, 0.50);
+    background-image: url(/Images/3.png);
+    width: 573px;
+    height: 338px;
+    margin-top: 32px;
+}
+
+.xl3 {
+    border-radius: 12px;
+    background: rgba(19, 19, 24, 0.50);
+    background-image: url(/Images/4.png);
+    width: 1170px;
+    height: 450px;
+    flex-shrink: 0;
+    padding-top: 207px;
+    color: white;
+}
+
 @media screen and (max-width:600px) {
     #position {
         position: relative;
@@ -27,5 +55,17 @@
         padding: 20px;
         justify-content: center;
         align-items: center;
+    }
+    .tx {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .xl1,
+    .xl2,
+    .xl3 {
+        margin: auto;
+        width: 335px;
+        height: auto;
+        padding-top: 20px;
     }
 }
