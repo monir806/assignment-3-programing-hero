@@ -7,7 +7,7 @@
 .xl1 {
     border-radius: 16px;
     background: rgba(19, 19, 24, 0.50);
-    background-image: url(/Images/2.png);
+    background-image: url(2.png);
     width: 573px;
     height: 338px;
 }
@@ -15,7 +15,7 @@
 .xl2 {
     border-radius: 16px;
     background: rgba(19, 19, 24, 0.50);
-    background-image: url(/Images/3.png);
+    background-image: url(3.png);
     width: 573px;
     height: 338px;
 }
@@ -23,7 +23,7 @@
 .xl3 {
     border-radius: 12px;
     background: rgba(19, 19, 24, 0.50);
-    background-image: url(/Images/4.png);
+    background-image: url(4.png);
     width: 1170px;
     height: 450px;
     flex-shrink: 0;
